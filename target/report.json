@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-13T17:53:26.318Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7750322100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "latest offer search",
+        "description": "",
+        "id": "latest-available-offer;latest-offer-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1210732300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4500387200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i navigate to marksandspence homepage",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_navigate_to_marksandspence_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i move on Offer menu",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_move_on_Offer_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 306300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i click on polo shirt Buy 1 Get 1 free under menswear header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                },
+                {
+                  "val": "1",
+                  "offset": 32
+                }
+              ],
+              "location": "LatestOfferSearchSteps.i_click_on_polo_shirt_Buy_Get_free_under_menswear_header(Integer,Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i click on Style menu",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_on_Style_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click the check box of polo shits",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_the_check_box_of_polo_shits()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i click on Done button",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_on_Done_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i click on Size menu",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_on_Size_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i click the check box of large",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_the_check_box_of_large()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i click on Done button",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_on_Done_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "i click on Colour menu",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_on_Colour_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "i click the check box of White",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_the_check_box_of_White()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i click on the check box of Green",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_on_the_check_box_of_Green()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i click on Done button",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_on_Done_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i click on Pattern menu",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_on_Pattern_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i click the check box of plain",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_the_check_box_of_plain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i click on Done button",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_on_Done_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i click on Pure CottonPoloshirt link",
+            "match": {
+              "location": "LatestOfferSearchSteps.i_click_on_Pure_CottonPoloshirt_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "detail pure cotton polo shirt is displayed",
+            "match": {
+              "location": "LatestOfferSearchSteps.detail_pure_cotton_polo_shirt_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "latest available Offer",
+    "description": "  as a customer\n  i want the ability to search the latest offer\n  so that i can review the detail of selected items",
+    "id": "latest-available-offer",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/marksandspencer/features/CustomerCanSearchLatestOffer.feature",
+    "tags": []
+  }
+]
